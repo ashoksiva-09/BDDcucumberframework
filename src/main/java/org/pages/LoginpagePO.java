@@ -26,4 +26,8 @@ public class LoginpagePO extends Webdriverconfig {
         WebElement submit=driver.findElement(By.id("login-button"));
         submit.click();
     }
+
+    public static WebDriver getDriver() {
+        return driver;
+    }
 }

@@ -5,8 +5,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources",
-        glue = {"java"},
-        tags = "@Test"
+        glue = {"java/org/steps"},
+        tags = "@Regression",
+        plugin = { "pretty", "html:target/cucumber-reports" }
 )
 public class Run extends AbstractTestNGCucumberTests {
 }
