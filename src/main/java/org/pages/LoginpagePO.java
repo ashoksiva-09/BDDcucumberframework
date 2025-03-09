@@ -7,7 +7,7 @@ import org.utils.Webdriverconfig;
 
 public class LoginpagePO extends Webdriverconfig {
 
-    protected static WebDriver driver;
+    public static WebDriver driver;
     public LoginpagePO(){
         this.driver=Webdriverconfig.driver();
     }

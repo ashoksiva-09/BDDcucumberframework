@@ -13,7 +13,6 @@ Feature: Login functionality
       | error_user              | secret_sauce |
       | visual_user             | secret_sauce |
 
-
   @Test
   Scenario: User logs in successfully with valid credentials
     Given I am on the login page
