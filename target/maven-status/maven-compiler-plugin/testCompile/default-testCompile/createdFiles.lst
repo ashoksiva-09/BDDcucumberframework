@@ -1,0 +1,7 @@
+org\steps\HomePage.class
+org\steps\CartPage.class
+org\steps\LoginPage.class
+org\steps\checkoutYourInfoPage.class
+org\runner\Run.class
+org\steps\overviewPage.class
+org\steps\CompletePage.class
