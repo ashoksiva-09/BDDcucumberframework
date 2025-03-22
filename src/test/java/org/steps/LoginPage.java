@@ -3,10 +3,17 @@ package org.steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.pages.LoginpagePO;
 import org.testng.Assert;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class LoginPage extends LoginpagePO {
     @Given("I am on the login page")
@@ -57,5 +64,21 @@ public class LoginPage extends LoginpagePO {
             }
             driver.quit();
         }
+    }
+
+    @When("I enter credentials using excel data")
+    public void iEnterCredentialsUsingExcelData() throws IOException {
+        File file = new File("..//target//Testdata//Login.xlsx");
+        FileInputStream inputStream = new FileInputStream(file);
+        HSSFWorkbook wb = new HSSFWorkbook(inputStream);
+        HSSFSheet sheet = wb.getSheet("dataset");
+
+        String username = sheet.getRow(2).getCell(1).getStringCellValue();
+        String password = sheet.getRow(2).getCell(2).getStringCellValue();
+        System.out.println(username);
+        System.out.println(password);
+        LoginpagePO.enterUsername(username);
+        LoginpagePO.enterPassword(password);
+        LoginpagePO.clickLoginButton();
     }
 }
