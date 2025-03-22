@@ -1,116 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="41302" started-at="2025-03-17T21:48:52 IST" finished-at="2025-03-17T21:49:33 IST">
+  <suite name="All Test Suite" duration-ms="6535" started-at="2025-03-17T22:16:07 IST" finished-at="2025-03-17T22:16:14 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="C:/Users/Ashok/IdeaProjects/BDDCucumberframework" duration-ms="41302" started-at="2025-03-17T21:48:52 IST" finished-at="2025-03-17T21:49:33 IST">
+    <test name="C:/Users/Ashok/IdeaProjects/BDDCucumberframework" duration-ms="6535" started-at="2025-03-17T22:16:07 IST" finished-at="2025-03-17T22:16:14 IST">
       <class name="org.runner.Run">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.runner.Run@27f723]" name="setUpClass" is-config="true" duration-ms="631" started-at="2025-03-17T21:48:52 IST" finished-at="2025-03-17T21:48:53 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.runner.Run@27f723]" name="setUpClass" is-config="true" duration-ms="488" started-at="2025-03-17T22:16:07 IST" finished-at="2025-03-17T22:16:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="7093" started-at="2025-03-17T21:48:53 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T21:49:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User logs in with multiple users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="3393" started-at="2025-03-17T21:49:00 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T21:49:03 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User logs in with multiple users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="5428" started-at="2025-03-17T21:49:03 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T21:49:09 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User logs in with multiple users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="10772" started-at="2025-03-17T21:49:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T21:49:19 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User logs in with multiple users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="5601" started-at="2025-03-17T21:49:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T21:49:25 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User logs in with multiple users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="5732" started-at="2025-03-17T21:49:25 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T21:49:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User logs in with multiple users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="2564" started-at="2025-03-17T21:49:31 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T21:49:33 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@27f723]" name="runScenario" duration-ms="5967" started-at="2025-03-17T22:16:08 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T22:16:14 IST">
           <params>
             <param index="0">
               <value>
@@ -119,14 +23,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Login functionality]"]]>
+                <![CDATA["Optional[Home and Add to cart Feature]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.runner.Run@27f723]" name="tearDownClass" is-config="true" duration-ms="48" started-at="2025-03-17T21:49:33 IST" finished-at="2025-03-17T21:49:33 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.runner.Run@27f723]" name="tearDownClass" is-config="true" duration-ms="44" started-at="2025-03-17T22:16:14 IST" finished-at="2025-03-17T22:16:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
