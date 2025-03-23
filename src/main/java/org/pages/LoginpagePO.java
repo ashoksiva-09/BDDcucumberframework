@@ -14,11 +14,13 @@ public class LoginpagePO extends Webdriverconfig {
 
     public static void enterUsername(String usernames) {
         WebElement username=driver.findElement(By.id("user-name"));
+        username.clear();
         username.sendKeys(usernames);
     }
 
     public static void enterPassword(String passwords) {
         WebElement password=driver.findElement(By.xpath("//input[@id='password']"));
+        password.clear();
         password.sendKeys(passwords);
     }
 
