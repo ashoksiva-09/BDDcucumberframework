@@ -1,6 +1,7 @@
 Feature: Login functionality
 
   @Test
+  @Regression
   Scenario Outline: User logs in with multiple users
     Given I am on the login page
     When I enter "<username>" and "<password>"
