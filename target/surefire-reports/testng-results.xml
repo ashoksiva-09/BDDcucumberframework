@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="7079" started-at="2025-03-22T21:53:41 IST" finished-at="2025-03-22T21:53:48 IST">
+  <suite name="All Test Suite" duration-ms="15154" started-at="2025-10-14T21:07:24 IST" finished-at="2025-10-14T21:07:39 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@ed9d034]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@76a3e297]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="C:/Users/Ashok/IdeaProjects/BDDCucumberframework" duration-ms="7079" started-at="2025-03-22T21:53:41 IST" finished-at="2025-03-22T21:53:48 IST">
+    <test name="C:/Users/Ashok/IdeaProjects/BDDCucumberframework" duration-ms="15154" started-at="2025-10-14T21:07:24 IST" finished-at="2025-10-14T21:07:39 IST">
       <class name="org.runner.Run">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.runner.Run@ed9d034]" name="setUpClass" is-config="true" duration-ms="431" started-at="2025-03-22T21:53:41 IST" finished-at="2025-03-22T21:53:41 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.runner.Run@76a3e297]" name="setUpClass" is-config="true" duration-ms="605" started-at="2025-10-14T21:07:24 IST" finished-at="2025-10-14T21:07:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@ed9d034]" name="runScenario" duration-ms="6568" started-at="2025-03-22T21:53:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-22T21:53:48 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Run@76a3e297]" name="runScenario" duration-ms="14461" started-at="2025-10-14T21:07:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-10-14T21:07:39 IST">
           <params>
             <param index="0">
               <value>
@@ -27,10 +27,52 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='checkout']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8BTB2GC', ip: '192.168.1.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\Ashok\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 221c2cda364ac3a83b87a96c39f56af2
+*** Element info: {Using=xpath, value=//button[@id='checkout']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='checkout']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8BTB2GC', ip: '192.168.1.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\Ashok\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 221c2cda364ac3a83b87a96c39f56af2
+*** Element info: {Using=xpath, value=//button[@id='checkout']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.pages.CartpagePO.checkout(CartpagePO.java:11)
+at org.steps.CartPage.iNavigatedToCartPageAndClickCheckout(CartPage.java:9)
+at ✽.I navigated to cart page and click checkout(file:///C:/Users/Ashok/IdeaProjects/BDDCucumberframework/src/test/resources/features/HomeAndAddToCart.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.runner.Run@ed9d034]" name="tearDownClass" is-config="true" duration-ms="39" started-at="2025-03-22T21:53:48 IST" finished-at="2025-03-22T21:53:48 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.runner.Run@76a3e297]" name="tearDownClass" is-config="true" duration-ms="48" started-at="2025-10-14T21:07:39 IST" finished-at="2025-10-14T21:07:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
